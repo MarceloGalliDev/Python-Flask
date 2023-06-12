@@ -1,6 +1,6 @@
 import sqlite3
 
-conn = sqlite3.connect('enterprise.db')
+conn = sqlite3.connect('app/enterprise.db')
 
 #cursor é responsavel pela interface do banco de dados
 cursor = conn.cursor()

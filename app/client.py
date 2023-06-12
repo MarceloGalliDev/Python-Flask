@@ -1,7 +1,7 @@
 import requests
 
 # method GET
-get_response = requests.get('http://127.0.0.1:5000/empregados/cargo/analista')
+get_response = requests.get('http://127.0.0.1:5000/empregados/analista')
 
 get_message = get_response.json()
 
