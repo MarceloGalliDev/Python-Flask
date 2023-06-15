@@ -43,7 +43,7 @@ def query_employers_to_dict(conn, query):
   cursor = conn.cursor()
   cursor.execute(query)
   
-  employees_dict =[
+  employees_dict = [
     {
       'nome':row[0],
       'cargo':row[1],
